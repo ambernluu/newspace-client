@@ -3,7 +3,6 @@ import { useState } from "react";
 import LoginForm from "./forms/LoginForm";
 import { Navigate } from 'react-router';
 import Profile from "./Profile"
-//import { isLoggedIn, user } from "./helpers/authenticate"
 import NavBar from './NavBar'
 
 
@@ -20,8 +19,5 @@ const Login = ({user, setUser}) => {
     )
   }
   return <Navigate push to="/" />
-
-
 }
-
 export default Login;
